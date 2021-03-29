@@ -1,0 +1,11 @@
+test
+
+git init
+git add *
+git remote add origin https://github.com/CODESOURCE51/testskill.git
+git commit -m "comment name"
+git checkout -b 'branch_name'
+git branch -M experimental
+git push -u origin experimental
+git checkout branchname
+git merge experimental
